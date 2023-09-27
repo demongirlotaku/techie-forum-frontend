@@ -1,0 +1,17 @@
+.genName {
+  @apply max-w-[180px] w-full h-9 mb-7 flex justify-center items-center
+  bg-white text-xl text-black
+  font-medium;
+}
+
+.genAvatar {
+  @apply max-w-[180px] w-full h-[180px] border-2 border-gray mb-7;
+}
+
+.genAvatar:active {
+  @apply bg-white;
+}
+
+.genChangeAvatarWrapper {
+  @apply w-full h-auto bg-black flex flex-col justify-center items-center py-4;
+}

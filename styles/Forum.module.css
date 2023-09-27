@@ -1,0 +1,15 @@
+/* Main Pages */
+.forumLinkContainer {
+  @apply flex flex-col justify-center items-center max-w-[720px] w-full;
+}
+
+.forumLinkWrapper {
+  @apply grid grid-flow-row-dense grid-cols-4 
+  w-full p-4 border-2 border-white;
+}
+
+.forumLink {
+  @apply flex justify-center items-center w-[144px] 
+  h-10 m-4 text-xl text-black hover:text-white 
+  font-semibold bg-white hover:bg-gray duration-300;
+}
